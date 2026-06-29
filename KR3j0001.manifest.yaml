@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR3j0001/v1
+canonical_location: https://kanripo.org/bkk/KR3j0001/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 鬻子
+  identifiers:
+    krp: KR3j0001
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR3j
+  source:
+    repository: tls-texts
+    path: data/tls/KR3j0001.xml
+  edition:
+    short: bkk
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR3j0001_001.yaml, hash: 'sha256:102f2c5055cbd161d687ebc53e7a85ff3e6119b91d1601cae04510716589a15f'}
+  - {seq: 2, filename: KR3j0001_002.yaml, hash: 'sha256:214879150a70248b3dda84db746c988ec9f7d00ffc24c80701a7a557e80a001c'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR3j0001_002.markers.yaml, hash: 'sha256:0b09489386511bd8d73705fb72aaa17274939c610293018544da28cf1e4f45f1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3j0001_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 581
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3j0001_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 853
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:21bc47044c80eab6545142325121e77590fa4b0a95926d4b3d0c4d28e0341f66
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
