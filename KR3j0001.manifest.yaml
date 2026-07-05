@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 1, filename: KR3j0001_001.yaml, hash: 'sha256:102f2c5055cbd161d687ebc53e7a85ff3e6119b91d1601cae04510716589a15f'}
-  - {seq: 2, filename: KR3j0001_002.yaml, hash: 'sha256:214879150a70248b3dda84db746c988ec9f7d00ffc24c80701a7a557e80a001c'}
+  - {seq: 2, filename: KR3j0001_002.yaml, hash: 'sha256:29a5f8f6677aff097057303e0d252a565f82331dadfa301388e310e3023fdcd6'}
   markers:
-  - {seq: 2, role: markers, filename: assets/KR3j0001_002.markers.yaml, hash: 'sha256:0b09489386511bd8d73705fb72aaa17274939c610293018544da28cf1e4f45f1'}
+  - {seq: 1, role: markers, filename: assets/KR3j0001_001.markers.yaml, hash: 'sha256:d50c1c54af7792f3dfedbe9e7442650be56730436b678add3928dd4fe037ea09'}
+  - {seq: 2, role: markers, filename: assets/KR3j0001_002.markers.yaml, hash: 'sha256:326184d95013204788bafaa4bfe0abf01501109b651a4c45a0230390a4e23368'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,7 +47,4 @@ table_of_contents:
   label: 卷下
   type: section
   level: 1
-hash: sha256:21bc47044c80eab6545142325121e77590fa4b0a95926d4b3d0c4d28e0341f66
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:32486789cba634ef3cc81f299a98c09d11afa2fd0e054d8bef60a2b09d73e074
